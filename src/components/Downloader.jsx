@@ -57,7 +57,6 @@ const Downloader = () => {
             const songAuthor = result.data.artist
             const songname = result.data.album
             const downlodlink = result.data.downloadLink
-            console.log(result.data);
 
             if (result.data) {
                 // if data is there it follow the if block. and update the data to every state that respected filed state
